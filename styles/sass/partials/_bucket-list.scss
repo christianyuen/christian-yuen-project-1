@@ -1,0 +1,57 @@
+@use 'variables' as *;
+
+.bucket-list {
+    .parent-container {
+        display: flex;
+        justify-content: space-between;
+        .child-container,
+        .child-container-2 {
+            display: flex;
+            max-width: 50%;
+            flex-direction: column;    
+        }
+    }
+}
+
+.bucket-list {
+    .child-container {
+        position: relative;
+        img {
+            position: relative;
+            width: 100%;
+            height: auto;
+            top: 0px;
+            box-shadow: 20px 20px $pine,
+                        200px 20px $pine;
+        }
+    }
+}
+.bucket-list {
+    .child-container-2 {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        padding-right: 80px;
+        
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+        button {
+            align-self: flex-end;
+            width: 150px;
+            font-size: 1.4rem;
+            border: none;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            font-family: 'Abril Fatface', cursive;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            background-color: $accent;
+            &:hover,
+            &:focus {
+                border: solid 2px $black;
+            }
+        }
+    }
+}   
