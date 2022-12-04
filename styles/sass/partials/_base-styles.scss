@@ -1,0 +1,56 @@
+// BASE STYLES
+@use "variables" as *;
+
+html {
+font-size: 62.5%;
+overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: regular;
+    font-family: 'Abril Fatface', cursive;
+    color: $white-shade;
+    line-height: 92px;
+    letter-spacing: 1px;
+    font-size: 9rem;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    color: $black;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: $black;
+    line-height: 29px;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+}
+

@@ -1,0 +1,39 @@
+@use 'variables' as *;
+
+nav {
+    background-color: $pine;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo {
+            font-weight: regular;
+            font-family: 'Abril Fatface', cursive;
+            color: $white-shade;
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            margin: 10px 40px;
+        }
+    }
+}
+
+nav a {
+    text-transform: uppercase;
+    color: $white-shade;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    &:hover, 
+    &:focus {
+        color: $accent;
+    }
+}
+
+nav a:first-child {
+    margin-right: 40px;
+}
+
+nav a:last-child {
+    margin-left: 40px;
+}

@@ -1,0 +1,45 @@
+@use 'variables' as *;
+
+header {
+    background-color: $pine;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+    .logo-text {
+        position: absolute;
+        max-width: 90px;
+        height: auto;
+        left: 0;
+        top: 120px;
+    }
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+    .header-image {
+        position: absolute;
+        max-width: 300px;
+        height: auto;
+        right: 0;
+        top: 30px;
+        box-shadow: white 15px 15px;
+    }
+}
+
+header h1 {
+    margin-bottom: 160px;
+    margin-top: 140px;
+    margin-left: 40px;
+}
+

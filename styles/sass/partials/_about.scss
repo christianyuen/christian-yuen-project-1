@@ -1,0 +1,35 @@
+@use 'variables' as *;
+
+.about {
+    background-color: $white-shade;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h2 {
+            margin-top: 80px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.about button {
+    width: 200px;
+    font-size: 1.4rem;
+    align-self: center;
+    border: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    background-color: $accent;
+    &:hover,
+    &:focus {
+        border: solid 2px $black;
+    }
+}
