@@ -16,11 +16,12 @@
 .bucket-list {
     .child-container {
         position: relative;
+        // margin-bottom: 50px;
         img {
             position: relative;
             width: 100%;
             height: auto;
-            top: 0px;
+            top: 40px;
             box-shadow: 20px 20px $pine,
                         200px 20px $pine;
         }
@@ -34,7 +35,7 @@
         padding-right: 80px;
         
         h2 {
-            margin-top: 0;
+            margin-top: 3.3rem;
             margin-bottom: 0px;
         }
         button {

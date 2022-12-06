@@ -228,7 +228,6 @@ html {
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
 }
 
 .wrapper {
@@ -309,6 +308,8 @@ nav a {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.3rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 nav a:hover, nav a:focus {
   color: #e4a436;
@@ -452,7 +453,7 @@ header h1 {
   position: relative;
   width: 100%;
   height: auto;
-  top: -20px;
+  top: -40px;
   -webkit-box-shadow: 20px 20px #709b6b, -200px 20px #709b6b;
           box-shadow: 20px 20px #709b6b, -200px 20px #709b6b;
 }
@@ -461,7 +462,7 @@ header h1 {
   padding-left: 80px;
 }
 .child-container-2 h2 {
-  margin-top: 80px;
+  margin-top: 8rem;
   margin-bottom: 0px;
 }
 .child-container-2 button {
@@ -471,7 +472,7 @@ header h1 {
   padding: 10px 10px;
   text-transform: uppercase;
   font-family: "Abril Fatface", cursive;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   margin-top: 10px;
   background-color: #e4a436;
 }
@@ -506,7 +507,7 @@ header h1 {
   position: relative;
   width: 100%;
   height: auto;
-  top: 0px;
+  top: 40px;
   -webkit-box-shadow: 20px 20px #345231, 200px 20px #345231;
           box-shadow: 20px 20px #345231, 200px 20px #345231;
 }
@@ -518,7 +519,7 @@ header h1 {
   padding-right: 80px;
 }
 .bucket-list .child-container-2 h2 {
-  margin-top: 0;
+  margin-top: 3.3rem;
   margin-bottom: 0px;
 }
 .bucket-list .child-container-2 button {
@@ -536,6 +537,99 @@ header h1 {
 }
 .bucket-list .child-container-2 button:hover, .bucket-list .child-container-2 button:focus {
   border: solid 2px #1f1f1f;
+}
+
+.willows-journey {
+  background-color: #f6f6f6;
+  padding: 11rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.willows-journey .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.willows-journey .img-container img {
+  margin-right: 15rem;
+  -webkit-box-shadow: 20px 20px #709b6b;
+          box-shadow: 20px 20px #709b6b;
+  max-width: 100%;
+  height: auto;
+}
+.willows-journey .img-container .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.willows-journey .img-container .flex-container button {
+  width: 200px;
+  font-size: 1.4rem;
+  -ms-flex-item-align: left;
+      align-self: left;
+  border: none;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-family: "Abril Fatface", cursive;
+  background-color: #e4a436;
+  margin-top: 10px;
+}
+.willows-journey .img-container .flex-container button:hover, .willows-journey .img-container .flex-container button:focus {
+  border: solid 2px #1f1f1f;
+}
+
+.willows-journey .flex-container h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.menu-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menu-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.image-gallery .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.image-gallery .wrapper img {
+  max-width: 100%;
+  height: auto;
+  max-width: 33.3%;
+  margin: 9rem 0;
+}
+.image-gallery .wrapper img:first-child {
+  margin-right: 20px;
+}
+.image-gallery .wrapper img:last-child {
+  margin-left: 20px;
 }
 
 @media (max-width: 1000px) {
