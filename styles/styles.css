@@ -632,6 +632,58 @@ header h1 {
   margin-left: 20px;
 }
 
+.footer-nav {
+  background-color: #f6f6f6;
+}
+.footer-nav .wrapper .flex-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer-nav .wrapper .flex-parent .flex-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 6.2rem;
+  position: relative;
+  margin: 0;
+}
+
+.flex-parent:first-child {
+  padding-top: 7rem;
+}
+
+.flex-parent:last-child {
+  padding-bottom: 7rem;
+}
+
+.flex-child h2 {
+  margin: 0;
+}
+
+.flex-child a {
+  text-decoration: none;
+}
+
+.flex-child img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  left: 0px;
+  top: -5px;
+  background-color: #e4a436;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 @media (max-width: 1000px) {
   /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
 }

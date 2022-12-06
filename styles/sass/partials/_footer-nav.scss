@@ -1,0 +1,47 @@
+@use 'variables' as *;
+
+.footer-nav {
+    background-color: $white-shade;
+    .wrapper {
+        .flex-parent {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .flex-child {
+                display: flex;
+                flex-direction: column;
+                padding-left: 6.2rem;
+                position: relative;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.flex-parent:first-child {
+    padding-top: 7rem;
+}
+
+.flex-parent:last-child {
+    padding-bottom: 7rem;
+}
+
+.flex-child h2 {
+    margin: 0;
+}
+
+.flex-child a {
+    text-decoration: none;
+}
+
+.flex-child img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    top: -5px;
+    background-color: $accent;
+    border-radius: 50%;
+    padding: 10px;
+}
+
