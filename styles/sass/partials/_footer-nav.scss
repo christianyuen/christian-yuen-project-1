@@ -2,11 +2,12 @@
 
 .footer-nav {
     background-color: $white-shade;
+    margin: 0;
     .wrapper {
         .flex-parent {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            // margin-bottom: 20px;
             .flex-child {
                 display: flex;
                 flex-direction: column;
@@ -19,11 +20,11 @@
 }
 
 .flex-parent:first-child {
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
 
 .flex-parent:last-child {
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
 }
 
 .flex-child h2 {
@@ -38,7 +39,7 @@
     position: absolute;
     max-width: 100%;
     height: auto;
-    left: 0px;
+    left: 8px;
     top: -5px;
     background-color: $accent;
     border-radius: 50%;

@@ -615,9 +615,9 @@ header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .image-gallery .wrapper img {
   max-width: 100%;
@@ -626,14 +626,15 @@ header h1 {
   margin: 9rem 0;
 }
 .image-gallery .wrapper img:first-child {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .image-gallery .wrapper img:last-child {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .footer-nav {
   background-color: #f6f6f6;
+  margin: 0;
 }
 .footer-nav .wrapper .flex-parent {
   display: -webkit-box;
@@ -642,7 +643,6 @@ header h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 20px;
 }
 .footer-nav .wrapper .flex-parent .flex-child {
   display: -webkit-box;
@@ -658,11 +658,11 @@ header h1 {
 }
 
 .flex-parent:first-child {
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
 
 .flex-parent:last-child {
-  padding-bottom: 7rem;
+  padding-bottom: 10rem;
 }
 
 .flex-child h2 {
@@ -677,7 +677,7 @@ header h1 {
   position: absolute;
   max-width: 100%;
   height: auto;
-  left: 0px;
+  left: 8px;
   top: -5px;
   background-color: #e4a436;
   border-radius: 50%;
@@ -692,6 +692,8 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #1f1f1f;
+  margin: 0;
+  padding: 0;
 }
 footer p {
   margin: 0;
