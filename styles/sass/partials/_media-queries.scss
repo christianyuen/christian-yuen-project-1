@@ -1,5 +1,153 @@
+@use 'variables' as *;
+
 @media (max-width: 1000px) {
-  /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+  /* all of our styles for smaller DESKTOP/TABLET devices will go within this breakpoint */
+  
+  // HEADER SECTION
+  .image-container {
+    display: none;
+  }
+  header .wrapper {
+    justify-content: center;
+  }
+  .flex-container .logo-text {
+    max-width: 12rem;
+    top: 100px;
+  }
+  header h1 {
+    font-size: 15rem;
+    margin-left: 5rem;
+  }
+  // END OF HEADER
+  
+// *********************************************** 
+
+  // ABOUT SECTION
+
+  .about .about-container h2 {
+  margin-top: 7rem;
+  margin-bottom: 5px;
+  }
+
+  .about button {
+    margin-bottom: 7rem;
+  }
+
+  // END ABOUT SECTION
+
+// ***********************************************
+
+  // FAV THINGS SECTION
+
+  .fav-things {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .child-container img {
+    box-shadow: none;
+    top: 0;
+    margin-top: 7rem;
+    border: solid 3rem $green-grey;
+  }
+
+  .fav-things .parent-container .child-container, .fav-things .parent-container .child-container-2 {
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  }
+
+  .fav-things .parent-container {
+  flex-direction: column;
+  }
+
+  .fav-things h2 {
+    margin-top: 2rem;
+  }
+
+  .fav-things button {
+    margin-bottom: 7rem;
+  }
+// END FAV THINGS SECTION
+
+// ***********************************************
+
+// BUCKET LIST SECTION
+
+  .bucket-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bucket-list .child-container img {
+    box-shadow: none;
+    top: 0;
+    margin-top: 0;
+    border: solid 3rem $pine;
+  }
+
+  .bucket-list .parent-container .child-container, .bucket-list .parent-container .child-container-2 {
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  }
+
+  .bucket-list .parent-container {
+  flex-direction: column-reverse;
+  }
+
+  .bucket-list h2 {
+    margin-top: 2rem;
+  }
+
+  .bucket-list .child-container-2 button {
+    margin-bottom: 7rem;
+    align-self: center;
+  }
+// END OF BUCKET LIST SECTION
+
+// **************************************************
+
+// WILLOWS JOURNEY SECTION
+
+  .willows-journey {
+  background-color: #f6f6f6;
+  padding: 8rem 0;
+  display: flex;
+  }
+
+  .willows-journey .img-container {
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  .willows-journey .img-container img {
+  margin-right: 0;
+  box-shadow: none;
+  height: 500px;
+  border: solid white 3rem;
+  }
+
+  .willows-journey .img-container .flex-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.willows-journey .img-container .flex-container button {
+  align-self: center;
+}
+// END WILLOWS JOURNEY SECTION
+
+// **************************************************
+
 }
 
 @media (max-width: 800px) {
