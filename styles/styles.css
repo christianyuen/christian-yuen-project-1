@@ -278,6 +278,100 @@ p {
   font-size: 1.7rem;
 }
 
+.header-image {
+  background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/contact-image-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.header-image h2 {
+  margin: 0;
+  color: white;
+  font-size: 6rem;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  padding: 50px 25px;
+}
+
+.header-image .wrapper {
+  padding-top: 244px;
+}
+
+.contact-form {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.socials img {
+  margin-right: 20px;
+  height: auto;
+  width: 30px;
+}
+
+.contact-form p {
+  line-height: 1px;
+  margin-bottom: 7px;
+}
+
+.contact .email {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form {
+  margin-left: 50px;
+  width: 75vh;
+}
+
+.form input {
+  width: 49.7%;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.form .message {
+  height: 250px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.form .submit-button {
+  width: 100%;
+  border: none;
+  background-color: #e4a436;
+  font-family: "Abril Fatface", cursive;
+  text-transform: uppercase;
+}
+.form .submit-button:hover, .form .submit-button:focus {
+  border: black 1px solid;
+}
+
 nav {
   background-color: #345231;
 }
@@ -890,7 +984,7 @@ footer p {
             box-shadow: none;
     top: 0;
     margin-top: 7rem;
-    border: solid 3rem #709b6b;
+    border: solid 2rem #709b6b;
   }
   .fav-things .parent-container .child-container, .fav-things .parent-container .child-container-2 {
     max-width: 100%;
@@ -933,7 +1027,7 @@ footer p {
             box-shadow: none;
     top: 0;
     margin-top: 0;
-    border: solid 3rem #345231;
+    border: solid 2rem #345231;
   }
   .bucket-list .parent-container .child-container, .bucket-list .parent-container .child-container-2 {
     max-width: 100%;

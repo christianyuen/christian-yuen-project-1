@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Contact Us</title>
 </head>
 <body>
+    <nav class="main-nav">
+        <!--START OF NAV-->
+        <div class="wrapper">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <p class="logo">Willow</p>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+        </div><!--END OF WRAPPER-->
+    </nav><!--END OF MAIN-NAV-->
     
+    <main>
+        <section class="header-image">
+            <div class="wrapper">
+                <h2>Contact Me</h2>
+            </div>
+        </section><!--END OF SECTION-->
+
+        <section class="contact-form">
+            <div class="wrapper">
+                <div class="contact">
+                    <div class="socials">
+                        <a href="#"><img src="./assets/facebook.svg" alt="facebook" fill="currentColor"></a>
+                        <a href="#"><img src="./assets/twitter.svg" alt="twitter" fill="currentColor"></a>
+                        <a href="#"><img src="./assets/linkedin.svg" alt="linked-in" fill="currentColor"></a>
+                        <a href="#"><img src="./assets/instagram.svg" alt="instagram" ></a>
+                    </div>
+                    <p class="email">info@email.com</p>
+                    <p>123 - 456 - 7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, ON</p>
+                    <p>M5V2D5</p>
+                </div>
+                <div class="form">
+                    <form action="contact-info">
+                        <input type="text" id="fname" name="fname" placeholder="Name">
+                        <input type="text" id="email" name="email" placeholder="Email"><br>
+                        <input class="message" type="text" id="message" name="message" placeholder="Message"><br>
+                        <input class="submit-button" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div><!--END OF WRAPPER-->
+        </section><!--END OF SECTION-->
+    </main>
+
+    <footer>
+        <p>Copyright ©️ 2022 Christian Yuen</p>
+    </footer>
 </body>
 </html>
