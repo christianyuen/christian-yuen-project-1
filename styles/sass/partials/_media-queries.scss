@@ -1,9 +1,58 @@
 @use 'variables' as *;
 
+@media (max-width: 1200px) {
+
+  // START ABOUT SECTION ---
+
+.about button {
+    margin-bottom: 7rem;
+  }
+
+  // END ABOUT SECTION
+  
+  // WILLOWS JOURNEY SECTION ---
+
+  .willows-journey {
+  background-color: #f6f6f6;
+  padding: 8rem 0;
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  }
+
+  .willows-journey .img-container {
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  .willows-journey .img-container img {
+  margin-right: 0;
+  box-shadow: none;
+  border: 2rem solid white;
+  height: 330px;
+  width: 492px;
+  align-self: center;
+  display: none;
+}
+
+  .willows-journey .img-container .flex-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.willows-journey .img-container .flex-container button {
+  align-self: center;
+}
+// END WILLOWS JOURNEY SECTION
+
+} // END MEDIA QUERY
+
+// ******************************************************
+
 @media (max-width: 1000px) {
   /* all of our styles for smaller DESKTOP/TABLET devices will go within this breakpoint */
   
-  // HEADER SECTION
+  // HEADER SECTION ---
   .image-container {
     display: none;
   }
@@ -18,11 +67,9 @@
     font-size: 15rem;
     margin-left: 5rem;
   }
-  // END OF HEADER
-  
-// *********************************************** 
+  // END OF HEADER 
 
-  // ABOUT SECTION
+  // ABOUT SECTION ---
 
   .about .about-container h2 {
   margin-top: 7rem;
@@ -35,9 +82,7 @@
 
   // END ABOUT SECTION
 
-// ***********************************************
-
-  // FAV THINGS SECTION
+  // FAV THINGS SECTION ---
 
   .fav-things {
     display: flex;
@@ -74,9 +119,7 @@
   }
 // END FAV THINGS SECTION
 
-// ***********************************************
-
-// BUCKET LIST SECTION
+// BUCKET LIST SECTION ---
 
   .bucket-list {
     display: flex;
@@ -114,9 +157,7 @@
   }
 // END OF BUCKET LIST SECTION
 
-// **************************************************
-
-// WILLOWS JOURNEY SECTION
+// WILLOWS JOURNEY SECTION ---
 
   .willows-journey {
   background-color: #f6f6f6;
@@ -133,27 +174,116 @@
   margin-right: 0;
   box-shadow: none;
   height: 500px;
+  width: 100%;
   border: solid white 3rem;
   }
 
   .willows-journey .img-container .flex-container {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 0;
 }
 
 .willows-journey .img-container .flex-container button {
   align-self: center;
 }
 // END WILLOWS JOURNEY SECTION
+} // END MEDIA QUERY ---
 
-// **************************************************
-
-}
+// ******************************************************
 
 @media (max-width: 800px) {
   /* all of our styles for TABLET devices will go within this breakpoint */
-}
+  // HEADER ---
+  header h1 {
+    font-size: 10rem;
+    margin-left: 35px;
+  }
+
+  .flex-container .logo-text {
+  max-width: 9rem;
+  top: 120px;
+  }
+  // END OF HEADER
+  // FOOTER-NAV ---
+  .footer-nav .wrapper .flex-parent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-nav .wrapper .flex-parent .flex-child {
+    padding-left: 0;
+  }
+  
+  .flex-child h2 {
+    margin-top: 10px;
+  }
+
+  .flex-child img {
+    position: unset;
+    max-width: 100%;
+    height: auto;
+    background-color: #e4a436;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  // END FOOTER-NAV
+} // END MEDIA QUERY ---
 
 @media (max-width: 500px) {
   /* all of our styles for MOBILE devices will go within this breakpoint */
+
+  // NAVIGATION ---
+  .main-nav {
+    display: none;
+  }
+
+  .p-menu1 {
+    display: block;
+  }
+  // END OF NAVIGATION
+  // HEADER ---
+  header h1 {
+    font-size: 5rem;
+    margin-left: 20px;
+  }
+
+  .flex-container .logo-text {
+  max-width: 5rem;
+  top: 150px;
+  } 
+  // END OF HEADER
+  // IMAGE-GALLERY ---
+  .image-gallery .wrapper {
+  justify-content: center;
+  flex-direction: column;
+  }
+  .image-gallery .wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 33%;
+  margin: 20px 0;
+  margin-right: 0px;
+  align-self: center;
+  }
+
+  .image-gallery {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 100%;
+            height: auto;
+            max-width: 50%;
+            &:first-child {
+                margin-right: 0;
+                margin-top: 40px;
+            }
+            &:last-child {
+                margin-left: 0;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
 }
