@@ -1,0 +1,175 @@
+@use 'variables' as *;
+
+.blog-image {
+    background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/blog-image-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    h2 {
+        margin: 0;
+        color: white;
+        font-size: 6rem;
+    }
+}
+
+.blog-image .wrapper {
+    padding-top: 244px;
+}
+
+.blog-body {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+    padding-top: 100px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.flex-container-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    h2 {
+        font-size: 2.3rem;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .container-1 {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+        a {
+            color: $green-grey;
+            font-weight: bold;
+        }
+
+        p {
+            font-weight: lighter;
+            font-family: "Montserrat", sans-serif;
+            color: #1f1f1f;
+            line-height: 29px;
+            letter-spacing: 1px;
+            font-size: 1.4rem;
+        }
+    }
+    .container-2 {
+        background-color: white;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+
+        h2 {
+            margin-top: 0;
+        }
+        li {
+            font-weight: lighter;
+            font-family: "Montserrat", sans-serif;
+            color: #1f1f1f;
+            line-height: 29px;
+            letter-spacing: 1px;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.flex-container-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-left: 20px;
+    h2 {
+        margin: 0;
+    }
+    p {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 1.4rem;
+    }
+    .container-1 {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+        border-bottom: solid 5px $green-grey;
+    }
+
+    .container-2 {
+        margin-top: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        img {
+            max-width: 70px;
+            height: auto;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            p {
+                margin: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+
+        .container-3 {
+        margin-top: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        border-bottom: 5px solid $green-grey;
+        img {
+            max-width: 70px;
+            height: auto;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            p {
+                margin: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.blog-form {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.blog-form input {
+    width: 49.6%;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.blog-form .message {
+    height: 250px;
+    width: 100%;
+    margin: 20px 0;
+    padding-bottom: 200px;
+}
+
+.blog-form .submit-button {
+    width: 100%;
+    border: none;
+    background-color: $accent;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        border: black 1px solid;
+    }
+}

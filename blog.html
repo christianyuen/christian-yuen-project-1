@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Blog</title>
 </head>
 <body>
+    <nav class="main-nav">
+        <!--START OF NAV-->
+        <div class="wrapper">
+            <div>
+                <a href="file:///Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/index.html#">Home</a>
+                <a href="#about">About</a>
+                <p class="logo">Willow</p>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <!--END OF WRAPPER-->
+    </nav>
+    <!--END OF MAIN-NAV-->
     
+    <!-- HAMBURGER DROPDOWN NAV -->
+    <section class="p-menu1">
+        <nav id="navbar" class="navigation" role="navigation">
+            <input id="toggle1" type="checkbox" />
+            <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+            </label>
+    
+            <nav class="menu1">
+                <a class="link1"
+                    href="file:///Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/index.html#">Home</a>
+                <a class="link1" href="#about">About</a>
+                <a class="link1" href="#">Blog</a>
+                <a class="link1" href="#">Contact</a>
+                <a class="lin1 kbutton-nav" href=""></a>
+            </nav>
+        </nav>
+    </section>
+    <!--END OF HAMBURGER NAV-->
+    
+    <main>
+        <section class="blog-image">
+            <div class="wrapper">
+                <h2>Blog & News</h2>
+            </div> <!--END OF WRAPPER-->
+        </section> <!--END OF SECTION-->
+
+        <section class="blog-body">
+            <div class="wrapper">
+                <div class="flex-container-left">
+                    <div class="container-1">
+                        <img src="./assets/blog-image-2.jpg" alt="Photo Of A Woman">
+                        <h2>About Willow</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, aliquid. Sint animi tenetur pariatur dignissimos similique cupiditate atque iste perspiciatis.<span><a href="#"> Find out more.</a></span></p>
+                    </div>
+                    <div class="container-2">
+                        <h2>Recent Posts</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                    </div>
+                </div><!--END OF LEFT CONTAINER-->
+
+                <div class="flex-container-right">
+                    <div class="container-1">
+                        <h2>My Favorite Travel Destinations</h2>
+                        <p>Monday, October 8th, 2018 By Willow</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eius repellendus, sequi, ipsa ullam est voluptates deserunt odio modi vero iste molestiae molestias doloremque neque.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde maiores aliquid nostrum doloribus iusto officia sed voluptatibus perspiciatis ducimus quidem dolores reprehenderit, sunt debitis nam quaerat. Maxime dolor obcaecati optio molestias, magni ut exercitationem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempora soluta cum assumenda voluptas culpa ipsum totam eligendi, voluptate quam voluptatem iure unde architecto enim veritatis necessitatibus optio neque, nulla ex rem praesentium minus adipisci mollitia! Tempore, sapiente esse! Unde, ex consequuntur? Nemo illo delectus officiis perferendis nisi provident omnis.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At consequatur ipsum ea suscipit similique. Facere nam ipsa nostrum delectus molestiae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit incidunt quidem officiis obcaecati, eveniet delectus! Eos alias consequuntur, similique veritatis consectetur ipsa! Consectetur, esse.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nam sequi ut, placeat quod laboriosam perspiciatis ipsam provident sunt facere odit id eveniet vero! Labore consequuntur ratione dolores similique omnis.</p>
+                    </div>
+
+                    <div class="container-2">
+                        <div>
+                            <img src="./assets/blog-image-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Tuesday, October 9th, 2018 by Barb</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur at molestias aperiam, quidem maiores. Cupiditate quae nisi in rerum?</p>
+                        </div>
+                    </div>
+
+                    <div class="container-3">
+                        <div>
+                            <img src="./assets/blog-image-4.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Tuesday, October 10th, 2018 by Daisy</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur vero asperiores quasi quo laboriosam reiciendis impedit saepe fugit exercitationem.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-form">
+                        <form action="contact-info">
+                            <input type="text" id="fname" name="fname" placeholder="Name">
+                            <input type="text" id="email" name="email" placeholder="Email Address"><br>
+                            <input class="message" type="text" id="message" name="message" placeholder="Message"><br>
+                            <input class="submit-button" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div> <!--END OF WRAPPER-->
+        </section>
+    </main>
+    
+    <footer>
+        <p>Copyright ©️ 2022 Christian Yuen</p>
+    </footer>
 </body>
 </html>

@@ -902,6 +902,230 @@ footer p {
   border: black 1px solid;
 }
 
+.blog-image {
+  background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/blog-image-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.blog-image h2 {
+  margin: 0;
+  color: white;
+  font-size: 6rem;
+}
+
+.blog-image .wrapper {
+  padding-top: 244px;
+}
+
+.blog-body {
+  background-color: #f6f6f6;
+  padding: 100px 0;
+  padding-top: 100px;
+}
+.blog-body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 30%;
+}
+.flex-container-left h2 {
+  font-size: 2.3rem;
+  margin: 0;
+  margin-top: 20px;
+}
+.flex-container-left .container-1 {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+.flex-container-left .container-1 a {
+  color: #709b6b;
+  font-weight: bold;
+}
+.flex-container-left .container-1 p {
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  line-height: 29px;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+.flex-container-left .container-2 {
+  background-color: white;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+.flex-container-left .container-2 h2 {
+  margin-top: 0;
+}
+.flex-container-left .container-2 li {
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  line-height: 29px;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+.flex-container-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 70%;
+  margin-left: 20px;
+}
+.flex-container-right h2 {
+  margin: 0;
+}
+.flex-container-right p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+.flex-container-right .container-1 {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  border-bottom: solid 5px #709b6b;
+}
+.flex-container-right .container-2 {
+  margin-top: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 40px;
+}
+.flex-container-right .container-2 img {
+  max-width: 70px;
+  height: auto;
+}
+.flex-container-right .container-2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flex-container-right .container-2 div p {
+  margin: 0;
+  margin-left: 20px;
+}
+.flex-container-right .container-3 {
+  margin-top: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 40px;
+  border-bottom: 5px solid #709b6b;
+}
+.flex-container-right .container-3 img {
+  max-width: 70px;
+  height: auto;
+}
+.flex-container-right .container-3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flex-container-right .container-3 div p {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.blog-form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.blog-form input {
+  width: 49.6%;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+.blog-form .message {
+  height: 250px;
+  width: 100%;
+  margin: 20px 0;
+  padding-bottom: 200px;
+}
+
+.blog-form .submit-button {
+  width: 100%;
+  border: none;
+  background-color: #e4a436;
+  font-family: "Abril Fatface", cursive;
+  text-transform: uppercase;
+}
+.blog-form .submit-button:hover, .blog-form .submit-button:focus {
+  border: black 1px solid;
+}
+
 @media (max-width: 1200px) {
   .about button {
     margin-bottom: 7rem;
