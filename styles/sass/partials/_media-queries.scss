@@ -286,4 +286,64 @@
     }
 }
 
+} // END MEDIA QUERY
+
+
+// ***************************************************
+
+// CONTACT US MEDIA QUERIES
+
+@media (max-width: 874px) {
+  .contact-form .wrapper {
+    flex-direction: column;
+    .form {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+} // END MEDIA QUERY
+
+@media (max-width: 500px) {
+  .header-image h2 {
+    font-size: 3.8rem;
+    margin-top: 20px;
+  }
+
+  .hamburger1 {
+    margin-bottom: 10px;
+  }
+
+  .contact-form p {
+    font-size: 1.5rem;
+  }
+
+  .socials img {
+    margin-right: 10px;
+    height: auto;
+    width: 25px;
+  }
+  
+  .contact {
+  justify-content: center;
+  align-items: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .form input:first-child {
+    margin-bottom: 20px;
+  }
+} // END MEDIA QUERY
+
+@media (max-width: 390px) {
+
+  .contact-form p {
+    font-size: 1.1rem;
+  }
 }

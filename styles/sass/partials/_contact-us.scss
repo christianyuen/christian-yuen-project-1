@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 600px;
+    width: 100%;
     height: 300px;
     padding: 50px 25px;
 }
@@ -28,7 +28,6 @@
 
 .contact-form {
     background-color: $white-shade;
-    // height: 500px;
     display: flex;
     padding: 100px 0;
 }
@@ -53,26 +52,28 @@
     padding-top: 100px;
 }
 
-.wrapper {
+.contact-form .wrapper {
     display: flex;
 }
 
 .form {
     margin-left: 50px;
-    width: 75vh;
+    width: 100%;
 }
 
 .form input {
-    width: 49.7%;
+    width: 49.6%;
     height: 50px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
+    padding-left: 20px;
 }
 
 .form .message {
     height: 250px;
     width: 100%;
     margin: 20px 0;
+    padding-bottom: 200px;
 }
 
 .form .submit-button {
@@ -86,3 +87,4 @@
         border: black 1px solid;
     }
 }
+

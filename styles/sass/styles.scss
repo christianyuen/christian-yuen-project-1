@@ -1,7 +1,6 @@
 @use './partials/setup';
 @use './partials/variables';
 @use './partials/base-styles';
-@use './partials/contact-us';
 @use './partials/nav';
 @use './partials/header';
 @use './partials/about';
@@ -12,4 +11,5 @@
 @use './partials/image-gallery';
 @use './partials/footer-nav';
 @use './partials/footer';
+@use './partials/contact-us';
 @use './partials/media-queries';
