@@ -807,7 +807,6 @@ footer p {
 }
 
 .header-image {
-  background-image: url("file:///Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/contact-image-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -817,6 +816,7 @@ footer p {
   margin: 0;
   color: white;
   font-size: 6rem;
+  position: relative;
 }
 
 .contact {
@@ -902,6 +902,12 @@ footer p {
   border: black 1px solid;
 }
 
+.header-image img {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+}
+
 .blog-image {
   background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/blog-image-1.jpg");
   background-position: center;
@@ -913,6 +919,7 @@ footer p {
   margin: 0;
   color: white;
   font-size: 6rem;
+  position: relative;
 }
 
 .blog-image .wrapper {
@@ -1124,6 +1131,12 @@ footer p {
 }
 .blog-form .submit-button:hover, .blog-form .submit-button:focus {
   border: black 1px solid;
+}
+
+.blog-image img {
+  height: 300px;
+  width: 100%;
+  position: absolute;
 }
 
 @media (max-width: 1200px) {

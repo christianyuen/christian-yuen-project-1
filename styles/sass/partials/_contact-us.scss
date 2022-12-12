@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 .header-image {
-    background-image: url("file:///Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/contact-image-1.jpg");
+    // background-image: url("../../../assets/contact-image-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +10,7 @@
         margin: 0;
         color: white;
         font-size: 6rem;
+        position: relative;
     }
 }
 
@@ -88,3 +89,8 @@
     }
 }
 
+.header-image img {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}

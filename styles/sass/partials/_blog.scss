@@ -10,6 +10,7 @@
         margin: 0;
         color: white;
         font-size: 6rem;
+        position: relative;
     }
 }
 
@@ -172,4 +173,10 @@
     &:focus {
         border: black 1px solid;
     }
+}
+
+.blog-image img {
+    height: 300px;
+    width: 100%;
+    position: absolute;
 }
