@@ -912,6 +912,10 @@ footer p {
   position: absolute;
 }
 
+button {
+  color: black;
+}
+
 .blog-image {
   background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/blog-image-1.jpg");
   background-position: center;
@@ -1141,6 +1145,10 @@ footer p {
   height: 300px;
   width: 100%;
   position: absolute;
+}
+
+button {
+  color: black;
 }
 
 @media (max-width: 1200px) {
