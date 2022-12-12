@@ -282,6 +282,10 @@ button {
   color: black;
 }
 
+.submit-button {
+  color: black;
+}
+
 nav {
   background-color: #345231;
 }
@@ -910,10 +914,6 @@ footer p {
   height: 300px;
   width: 100%;
   position: absolute;
-}
-
-button {
-  color: black;
 }
 
 .blog-image {
