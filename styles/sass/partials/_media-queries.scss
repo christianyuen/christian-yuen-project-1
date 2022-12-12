@@ -307,7 +307,13 @@
 @media (max-width: 500px) {
   .header-image h2 {
     font-size: 3.8rem;
-    margin-top: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .header-image .wrapper {
+    margin-top: 0;
+    padding-top: 165px;
   }
 
   .hamburger1 {
@@ -339,6 +345,17 @@
 
   .form input:first-child {
     margin-bottom: 20px;
+  }
+
+  .header-image {
+    height: 200px;
+    width: 100%;
+  }
+
+  .header-image img {
+    height: 200px;
+    width: 100%;
+    position: absolute;
   }
 } // END MEDIA QUERY
 
@@ -406,8 +423,13 @@
 @media (max-width: 500px) {
   .blog-image h2 {
     font-size: 3.5rem;
-    padding-top: 23px;
+    padding-top: 0px;
     text-align: center;
+  }
+
+  .blog-image .wrapper {
+    margin-top: 0;
+    padding-top: 167px;
   }
 
   .flex-container-left {
@@ -433,5 +455,16 @@
 
   .flex-container-right form input:first-child {
     margin-bottom: 20px;
+  }
+
+  .blog-image img {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .blog-image { 
+    height: 200px;
+    width: 100%;
   }
 } // END MEDIA QUERY
