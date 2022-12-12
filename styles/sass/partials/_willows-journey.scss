@@ -8,16 +8,15 @@
     .img-container {
         display: flex;
         img {
-            margin-right: 15rem;
             box-shadow: 20px 20px $green-grey;
-            max-width: 100%;
+            width: 300px;
             height: auto;
         }
         .flex-container {
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: auto;
+            margin-left: 100px;
             button {
                 width: 200px;
                 font-size: 1.4rem;

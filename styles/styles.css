@@ -668,10 +668,9 @@ header h1 {
   display: flex;
 }
 .willows-journey .img-container img {
-  margin-right: 15rem;
   -webkit-box-shadow: 20px 20px #709b6b;
           box-shadow: 20px 20px #709b6b;
-  max-width: 100%;
+  width: 300px;
   height: auto;
 }
 .willows-journey .img-container .flex-container {
@@ -683,7 +682,7 @@ header h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: auto;
+  margin-left: 100px;
 }
 .willows-journey .img-container .flex-container button {
   width: 200px;
@@ -728,21 +727,17 @@ header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0;
 }
 .image-gallery .wrapper img {
-  max-width: 100%;
+  width: 300px;
   height: auto;
-  max-width: 33.3%;
-  margin: 9rem 0;
-}
-.image-gallery .wrapper img:first-child {
-  margin-right: 30px;
-}
-.image-gallery .wrapper img:last-child {
-  margin-left: 30px;
+  margin: 10px;
 }
 
 .footer-nav {
@@ -780,6 +775,11 @@ header h1 {
 
 .flex-child h2 {
   margin: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.flex-child h2:hover, .flex-child h2:focus {
+  color: #e4a436;
 }
 
 .flex-child a {
@@ -795,6 +795,11 @@ header h1 {
   background-color: #e4a436;
   border-radius: 50%;
   padding: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.flex-child img:hover {
+  background-color: #709b6b;
 }
 
 footer {
@@ -1164,29 +1169,13 @@ button {
     padding-top: 4rem;
     padding-bottom: 8rem;
   }
-  .willows-journey .img-container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .willows-journey .img-container img {
-    margin-right: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border: 2rem solid white;
-    height: 330px;
-    width: 492px;
-    -ms-flex-item-align: center;
-        align-self: center;
     display: none;
   }
   .willows-journey .img-container .flex-container {
     text-align: center;
     margin-top: 3rem;
+    margin-left: 0;
   }
   .willows-journey .img-container .flex-container button {
     -ms-flex-item-align: center;
@@ -1387,23 +1376,10 @@ button {
     max-width: 5rem;
     top: 150px;
   }
-  .image-gallery .wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .image-gallery .wrapper img {
-    width: 100%;
-    height: auto;
-    max-width: 33%;
-    margin: 20px 0;
-    margin-right: 0px;
-    -ms-flex-item-align: center;
-        align-self: center;
+  .image-gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .image-gallery .wrapper {
     display: -webkit-box;
@@ -1412,19 +1388,14 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 20px 0;
   }
   .image-gallery .wrapper img {
-    max-width: 100%;
+    width: 200px;
     height: auto;
-    max-width: 50%;
-  }
-  .image-gallery .wrapper img:first-child {
-    margin-right: 0;
-    margin-top: 40px;
-  }
-  .image-gallery .wrapper img:last-child {
-    margin-left: 0;
-    margin-bottom: 40px;
+    margin: 10px;
   }
 }
 @media (max-width: 874px) {

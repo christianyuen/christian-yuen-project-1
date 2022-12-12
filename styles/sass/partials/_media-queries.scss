@@ -20,24 +20,14 @@
   padding-bottom: 8rem;
   }
 
-  .willows-journey .img-container {
-  justify-content: center;
-  flex-direction: column;
-  }
-
   .willows-journey .img-container img {
-  margin-right: 0;
-  box-shadow: none;
-  border: 2rem solid white;
-  height: 330px;
-  width: 492px;
-  align-self: center;
   display: none;
 }
 
   .willows-journey .img-container .flex-container {
   text-align: center;
   margin-top: 3rem;
+  margin-left: 0;
 }
 
 .willows-journey .img-container .flex-container button {
@@ -253,39 +243,21 @@
   } 
   // END OF HEADER
   // IMAGE-GALLERY ---
-  .image-gallery .wrapper {
-  justify-content: center;
-  flex-direction: column;
-  }
-  .image-gallery .wrapper img {
-  width: 100%;
-  height: auto;
-  max-width: 33%;
-  margin: 20px 0;
-  margin-right: 0px;
-  align-self: center;
-  }
-
+  
   .image-gallery {
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        img {
-            max-width: 100%;
-            height: auto;
-            max-width: 50%;
-            &:first-child {
-                margin-right: 0;
-                margin-top: 40px;
-            }
-            &:last-child {
-                margin-left: 0;
-                margin-bottom: 40px;
-            }
-        }
-    }
-}
-
+      display: flex;
+      .wrapper {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          padding: 20px 0;
+          img {
+              width: 200px;
+              height: auto;
+              margin: 10px;
+          }
+      }
+  }
 } // END MEDIA QUERY
 
 
