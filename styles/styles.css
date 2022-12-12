@@ -807,7 +807,7 @@ footer p {
 }
 
 .header-image {
-  background-image: url("/Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/contact-image-1.jpg");
+  background-image: url("file:///Users/xchan/Desktop/bootcamp/projects/christian-yuen-project-1/assets/contact-image-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
