@@ -54,6 +54,8 @@ formElement.addEventListener('submit', function (event) {
 }); 
 
 
-// NOTE.. CANT GET P ITEMS TO APPEND TO PAGE :( I THINK IM ALMOST THERE...!
+// 🆘NOTE.. CANT GET P ITEMS TO APPEND TO PAGE :( I THINK IM ALMOST THERE...!
+
+
 
 
