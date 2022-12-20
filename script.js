@@ -36,19 +36,15 @@ formElement.addEventListener('submit', function (event) {
         pItemElement2.textContent = `${post2}`;
         pItemElement3.textContent = `${post3}`;
 
-        console(pItemElement1);
-
         // select the div element
-        divElement = document.querySelectorAll('paragraph');
+        divElement = document.querySelectorAll('divP');
 
         // append paragraph element to div item element
+
+        // KEEP GETTING ERROR WHEN TRYING TO APPEND!!!
         divElement.append(pItemElement1);
-
-        // select/target the <ul> element
-        // const ulElement = document.querySelector('ul');
-
-        // append the newly created <li> element to the <ul> element
-        // ulElement.appendChild(listItemElement);
+        divElement.append(pItemElement2);
+        divElement.append(pItemElement3);
 
         // reset the input
         inputElement1.value = '';
@@ -56,5 +52,8 @@ formElement.addEventListener('submit', function (event) {
         inputElement3.value = '';
     }
 }); 
+
+
+// NOTE.. CANT GET P ITEMS TO APPEND TO PAGE :( I THINK IM ALMOST THERE...!
 
 
